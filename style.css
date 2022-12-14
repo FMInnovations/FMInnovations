@@ -1,0 +1,126 @@
+html,
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+
+
+#header {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+#deck-img {
+    position: relative;
+    height: 350px;
+    width: 255px;
+}
+
+#game { 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.cardButtons {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px 10px 0px
+}
+
+
+.button {
+    background-color: #EB6E00;
+    transition: 10ms;
+}
+
+
+#shuffle {
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+#shuffle h4 {
+    margin: auto;
+}
+
+.button-deck {
+    position: inherit;
+    display: flex;
+    background-color: #614f40;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+.button-deck img{
+    width: 70%;
+    height: auto;
+    margin: auto 0;
+}
+
+.button-deck {
+    transition: 0.3s ease;
+}
+
+.button:hover,
+.button-deck:hover {
+    cursor: pointer;
+    background-color: #948600;
+}
+
+#cards-left {
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: #6f6f6f;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 100%;
+    }
+
+  
+    #shuffle {
+        width: 30%;
+        height: 7%;
+    }
+
+    .deck {
+
+        display: flex;
+        justify-content: center;
+    }
+
+   
+
+    #cards-left {
+    
+        bottom: 0rem;
+    }
+
+}
